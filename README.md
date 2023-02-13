@@ -1,4 +1,4 @@
-# dsa in python
+# data structures and algorithms
 
 ### resources:
 - https://pdsaiitm.github.io/
