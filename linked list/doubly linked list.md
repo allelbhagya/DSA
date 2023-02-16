@@ -1,3 +1,19 @@
+# Doubly Linked List
+
+A doubly linked list is a linear data structure that consists of a sequence of nodes, where each node stores an element and two references, one to the previous node and one to the next node in the sequence. The first node in the sequence is called the head of the list, and the last node is called the tail.
+
+The main advantage of a doubly linked list is that it allows for more efficient insertion and deletion of nodes in the list, especially when compared to a singly linked list.
+
+Operations performed:
+
+- Insertion: Adding a new node at the beginning, end, or middle of the list.
+
+- Deletion: Removing a node from the list.
+
+- Traversal: Visiting each node in the list in order.
+
+- Searching: Finding a node with a specific value.
+
 ```python
 class Node:
     def __init__(self, data):
