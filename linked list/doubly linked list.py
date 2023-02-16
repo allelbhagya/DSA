@@ -1,6 +1,3 @@
-
-
-```python
 class Node:
     def __init__(self, data):
         self.prev = None
@@ -48,4 +45,3 @@ dll.append(4)
 dll.append(5)
 dll.display('left_to_right')
 dll.display('right_to_left')
-```
