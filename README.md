@@ -12,10 +12,10 @@
 
 ### linear data structures 
 - stack
-- hashing
 - queue
 - circular queue
 - priority queue
+- hashing
  
  #### linked list
 - singly linked list
