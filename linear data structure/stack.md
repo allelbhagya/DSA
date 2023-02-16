@@ -1,3 +1,4 @@
+```python
 def stack():
     #initializing the stack
     stack = []
@@ -32,3 +33,4 @@ pop(s)
 print_stack(s)
 push(s, str(5))
 print_stack(s)
+```
