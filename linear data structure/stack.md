@@ -1,3 +1,12 @@
+### Stack
+A stack is a data structure that represents a collection of elements in which the elements are inserted and removed from the same end. It follows the LIFO (Last-In-First-Out) principle, which means that the last element added to the stack will be the first one to be removed.
+
+A stack can be implemented using an array or a linked list. The two main operations that can be performed on a stack are:
+
+- Push: This operation adds an element to the top of the stack.
+
+- Pop: This operation removes an element from the top of the stack.
+
 ```python
 def stack():
     #initializing the stack
