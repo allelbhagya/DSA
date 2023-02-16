@@ -1,4 +1,3 @@
-```python
 class Node:
     def __init__(self,data):
         self.data = data 
@@ -41,4 +40,3 @@ c.addEnd(2)
 c.addEnd(3)
 c.addEnd(4)
 c.transverse()
-```
