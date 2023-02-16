@@ -4,9 +4,9 @@ It follows the FIFO (First-In-First-Out) principle, which means that the first e
 
 The two main operations that can be performed on a queue are:
 
-Enqueue: This operation adds an element to the end of the queue.
+- Enqueue: This operation adds an element to the end of the queue.
 
-Dequeue: This operation removes an element from the front of the queue.
+- Dequeue: This operation removes an element from the front of the queue.
 
 ````python
 class Queue:
