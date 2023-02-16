@@ -1,3 +1,4 @@
+```python
 class Node:
     def __init__(self,data):
         self.data = data
@@ -48,3 +49,4 @@ s.printSLL()
 print('\n')
 s.delNode(4)
 s.printSLL()
+```
