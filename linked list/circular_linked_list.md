@@ -1,3 +1,18 @@
+### Circular linked list
+
+A circular linked list is a variation of the linked list data structure in which the last node in the list points back to the first node, forming a loop. This means that the next pointer of the last node in the list points to the first node in the list, rather than to NULL as in a regular linked list.
+
+The main advantage of a circular linked list is that it allows for efficient traversal of the list, especially when we need to repeatedly iterate through the list. This is because, since the last node points back to the first node, we can traverse the list in a loop without the need to check for the end of the list.
+
+Operations performed:
+
+- Insertion: Adding a new node at the beginning, end, or middle of the list.
+
+- Deletion: Removing a node from the list.
+
+- Traversal: Visiting each node in the list in order.
+
+- Searching: Finding a node with a specific value.
 
 ```python
 class Node:
