@@ -41,5 +41,21 @@ for(i,j) in E:
 print(AMat)
 ```
 
+#### Adjacency list creation(using dictionary) for given undirected graph
+
+```python
+V = [0,1,2,3,4]
+E = [(0, 1), (0, 2), (1, 3), (1, 4), (2, 4), (2, 3), (3, 4)]
+UE = E + [ (j,i) for (i,j) in E] 
+size = len(V)
+AList = {}
+
+for i in range(size):
+    AList[i] = []
+for (i,j) in UE:
+    AList[i].append(j)
+print(AList)
+```
+
 #### Applications:
  social network analysis, route planning, computer networks, and many more. Many algorithms have been developed for various graph problems, such as finding the shortest path between two vertices, finding a minimum spanning tree, and detecting cycles in a graph.
